@@ -1,0 +1,22 @@
+.results-container {
+    position : absolute;
+    top: 60%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+
+.holder {
+
+    position: absolute;
+    left: 72%;
+    top : 37%;
+    border-radius: 50%;
+    width: 8rem;
+    height : 8rem;
+    background-color: hsl(213, 47%, 18%);
+    
+}

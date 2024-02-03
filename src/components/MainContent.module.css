@@ -1,0 +1,11 @@
+.main-content {
+    position: absolute;
+    top: 15rem;
+    width: 70%;
+    height: 300px;
+    margin-bottom: 10rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/bg-pentagon.svg');
+}

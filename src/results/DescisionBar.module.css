@@ -1,0 +1,37 @@
+.descisionBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.descisionBar h1 {
+    font-size: 2rem;
+    color : #fff;
+    font-weight: 500;
+}
+
+.descisionBar button {
+    background-color: #fff;
+    border-radius: 7px;
+    padding-inline: 0.5rem 0.5rem;
+    color: hsl(229, 25%, 31%);
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    padding-block: 3% 3%;
+    width: 9rem;
+}
+
+.enter-from-bottom {
+    opacity: 0;
+    transform: translateY(250%);
+    animation: enterFromBottom 0.6s ease-out forwards;
+}
+
+@keyframes enterFromBottom {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

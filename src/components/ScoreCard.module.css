@@ -1,0 +1,15 @@
+.score-card {
+    background-color: #fff;
+    color: hsl(229, 64%, 46%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.score-card h1 {
+    color: black;
+    text-align: center;
+}

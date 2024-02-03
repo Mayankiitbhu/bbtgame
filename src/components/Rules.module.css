@@ -1,0 +1,32 @@
+.rules-container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 100%;
+    border-radius: 8px;
+    padding-bottom: 1rem;
+    padding-inline: 5% 5%;
+}
+
+.rules-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.rules-header button {
+    border: none;
+    color : rgb(65, 63, 63);
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.rules-header h1 {
+    color : rgb(65, 63, 63);
+    font-size: 1.5rem;
+}
